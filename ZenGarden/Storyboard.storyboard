@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZtE-2x-YIF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VAv-SC-Z8R">
+            <objects>
+                <viewController id="ZtE-2x-YIF" customClass="ViewController" customModule="ZenGarden" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vof-6g-fhg"/>
+                        <viewControllerLayoutGuide type="bottom" id="wqG-nX-1Cj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8JI-I0-drC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rake" translatesAutoresizingMaskIntoConstraints="NO" id="WXA-8x-fOE">
+                                <rect key="frame" x="123" y="46" width="137" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swordinrock" translatesAutoresizingMaskIntoConstraints="NO" id="r7C-v5-6da">
+                                <rect key="frame" x="239" y="395" width="100" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rock1" translatesAutoresizingMaskIntoConstraints="NO" id="2w2-Gc-m0o">
+                                <rect key="frame" x="448" y="94" width="116" height="69"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrub" translatesAutoresizingMaskIntoConstraints="NO" id="D3R-kN-3iZ">
+                                <rect key="frame" x="456" y="267" width="144" height="74"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="rakeImage" destination="WXA-8x-fOE" id="9Wh-gS-wFH"/>
+                        <outlet property="rockImage" destination="2w2-Gc-m0o" id="ZaM-FL-TCn"/>
+                        <outlet property="shrubImage" destination="D3R-kN-3iZ" id="Tqi-0x-QQJ"/>
+                        <outlet property="swordImage" destination="r7C-v5-6da" id="KY7-rF-KED"/>
+                        <outletCollection property="imageViews" destination="r7C-v5-6da" collectionClass="NSMutableArray" id="dpx-qe-Ohz"/>
+                        <outletCollection property="imageViews" destination="WXA-8x-fOE" collectionClass="NSMutableArray" id="7yb-iH-kVZ"/>
+                        <outletCollection property="imageViews" destination="2w2-Gc-m0o" collectionClass="NSMutableArray" id="HDd-0p-MrS"/>
+                        <outletCollection property="imageViews" destination="D3R-kN-3iZ" collectionClass="NSMutableArray" id="mVf-2R-zeF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqN-pR-ybP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rake" width="402" height="597"/>
+        <image name="rock1" width="297" height="234"/>
+        <image name="shrub" width="600" height="396"/>
+        <image name="swordinrock" width="498" height="600"/>
+    </resources>
+</document>

@@ -11,6 +11,7 @@
 		1BA85B0D1D2574EF008D42CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA85B0C1D2574EF008D42CE /* ViewController.swift */; };
 		1BA85B121D2574EF008D42CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA85B111D2574EF008D42CE /* Assets.xcassets */; };
 		1BA85B151D2574EF008D42CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA85B131D2574EF008D42CE /* LaunchScreen.storyboard */; };
+		BAAEE9761D3ED2AB00CD2EA9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAEE9751D3ED2AB00CD2EA9 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1BA85B111D2574EF008D42CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BA85B141D2574EF008D42CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BA85B161D2574EF008D42CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAEE9751D3ED2AB00CD2EA9 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				1BA85B0C1D2574EF008D42CE /* ViewController.swift */,
 				1BA85B111D2574EF008D42CE /* Assets.xcassets */,
 				1BA85B131D2574EF008D42CE /* LaunchScreen.storyboard */,
+				BAAEE9751D3ED2AB00CD2EA9 /* Storyboard.storyboard */,
 				1BA85B161D2574EF008D42CE /* Info.plist */,
 			);
 			path = ZenGarden;
@@ -121,6 +124,7 @@
 			files = (
 				1BA85B151D2574EF008D42CE /* LaunchScreen.storyboard in Resources */,
 				1BA85B121D2574EF008D42CE /* Assets.xcassets in Resources */,
+				BAAEE9761D3ED2AB00CD2EA9 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
